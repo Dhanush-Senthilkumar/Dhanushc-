@@ -1,0 +1,14 @@
+//Mrs.Raja is a miser to the core.She saves money even on petite things. One dayshe heard a discount offer announced in a shop. she wants to purchase lot of items to save her money. The discount is given only when atleast two items are bought. Since each item has different discount prices , she finds difficult to check the amount she has saved. So she approaches you to device a automated discount calculator to make her easy while billing.//
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float a,b,e,d,c;
+    cin>>a>>b>>c;
+    d=a+b;
+    e=(d/100)*c;
+    cout<<d<<fixed<<setprecision(2)<<endl;
+    cout<<d-e<<fixed<<setprecision(2)<<endl;
+    cout<<e<<fixed<<setprecision(2)<<endl;
+}
