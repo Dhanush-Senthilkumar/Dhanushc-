@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int c,a,d,l,b,l1,b1,l2,b2;
+    cin>>l>>b>>l1>>b1>>l2>>b2;
+    a=l*b;
+    c=l1*b1;
+    d=l2*b2;
+    if(a>=(c+d))
+    {
+        cout<<"Karthi can fix both painting";
+    }
+    else
+    {
+        cout<<"Karthi cannot fix both painting";
+    }
+    
+    
+}
