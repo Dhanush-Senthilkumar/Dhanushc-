@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin>>a>>b>>c;
+    if(b>=60)
+    {
+        a=a+1;
+        b=b-60;
+    }
+    if(c>=60)
+    {
+        b=b+1;
+        c=c-60;
+    }
+    cout<<" Total Number of hours is "<< a <<endl;
+    cout<<" Total Number of minutes is "<< b <<endl;
+    cout<<" Total Number of seconds is "<< c <<endl;
+}
