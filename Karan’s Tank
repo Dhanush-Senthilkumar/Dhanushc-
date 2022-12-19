@@ -1,0 +1,21 @@
+\\Karan have a cylindrical tank in which he have to fill water in certain hours. For every one hour his house will receive N litres of water from the corporation. Find whether he will be able to fill the tank with water in X hours.\\
+
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float a,b,c,d,e,f;
+    cin>>a>>b>>c>>d;
+    e=(3.14*(a*a)*b)/(c*3600);
+    f=(c*d);
+    if(f<e)
+    {
+        cout<<"The tank cannot be filled";
+    }
+    else 
+    {
+        cout<<"The tank can be filled within "<<fixed<< setprecision(1) <<d <<" hours ";
+       
+    }
+}
