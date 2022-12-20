@@ -1,0 +1,44 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    int amt,mon;
+    float d,pay;
+    cin>>amt>>mon;
+    if(mon==1)
+    {
+        d=amt*0.2;
+        pay=amt-d;
+        cout<<"Zack's father needs to pay Rs."<<fixed<<setprecision(2)<<pay;
+    }
+    else if(mon==3 || mon==4)
+    {
+        d=amt*0.1;
+        pay=amt-d;
+        cout<<"Zack's father needs to pay Rs."<<fixed<<setprecision(2)<<pay;
+    }
+    else if(mon==6 || mon==7)
+    {
+        d=amt*0.75;
+        pay=amt-d;
+        cout<<"Zack's father needs to pay Rs."<<fixed<<setprecision(2)<<pay;
+    }
+    else if(mon==10 || mon==11)
+    {
+        d=amt*0.3;
+        pay=amt-d;
+        cout<<"Zack's father needs to pay Rs."<<fixed<<setprecision(2)<<pay;
+    }
+    else if(mon==12)
+    {
+        d=amt*0.35;
+        pay=amt-d;
+        cout<<"Zack's father needs to pay Rs."<<fixed<<setprecision(2)<<pay;
+    }
+    else
+    {
+        pay=amt;
+        cout<<"Zack's father needs to pay Rs."<<fixed<<setprecision(2)<<pay;
+    }
+}
