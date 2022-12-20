@@ -1,0 +1,34 @@
+//Dutch and Nora are close friends. They both are studying in same school. Now they are in summer vacation. As they feel very bore, they ask their parents to take them to an exhibition. There Dutch and Nora play a game. There are three boxes with some number written on their top. There is a treasure in one of the three boxes, which has second largest number on its top. They want to type some code to open the box which has a treasure. They want to find the code correctly to open the box. The clue given to them to find the code is the largest number which divide the all the three given numbers.//
+
+include<iostream>
+using namespace std;
+int main()
+{
+    int acc,ch,amt;
+    cin>>acc>>ch>>amt;
+    switch(ch)
+    {
+        case 1 :
+        {
+            cout<<acc+amt;
+            break;
+        }
+        case 2 :
+        {
+            if(amt>acc)
+            {
+                cout<<"Insufficient Balance";
+            }
+            else
+            {
+                cout<<acc-amt;
+            }
+            break;
+        }
+        default :
+        {
+            cout<<"Invalid Input";
+            break;
+        }
+    }
+}
